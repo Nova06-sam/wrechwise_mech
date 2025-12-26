@@ -2,7 +2,7 @@ import React from "react";
 
 export default function MechSmallCard() {
   return (
-    <section className="relative overflow-hidden bg-[#4051E8] py-14 sm:py-18 lg:py-24">
+    <section className="relative overflow-hidden bg-[#4051E8] py-13 sm:py-18 lg:py-12">
       {/* background glow accents */}
       <div className="pointer-events-none absolute -top-32 -left-32 h-72 w-72 sm:h-96 sm:w-96 rounded-full bg-indigo-300/30 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 right-0 h-72 w-72 sm:h-96 sm:w-96 rounded-full bg-purple-300/30 blur-3xl" />

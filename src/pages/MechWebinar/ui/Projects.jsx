@@ -95,32 +95,9 @@ export default function ProjectsSection() {
                 </p>
 
                 {/* Toggle */}
-                <button
-                  onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className="mt-5 flex w-full items-center justify-between
-                             rounded-xl border border-gray-200
-                             px-4 py-2.5
-                             text-sm font-semibold text-gray-700
-                             transition
-                             hover:border-[#3C53E7] hover:text-[#3C53E7]"
-                >
-                  View Key Skills
-                  <ChevronDown
-                    className={`h-4 w-4 transition-transform duration-300 ${
-                      isOpen ? "rotate-180" : ""
-                    }`}
-                  />
-                </button>
-
-                {/* Skills dropdown */}
-                <div
-                  className={`grid transition-all duration-500 ease-in-out ${
-                    isOpen
-                      ? "grid-rows-[1fr] opacity-100 mt-4"
-                      : "grid-rows-[0fr] opacity-0"
-                  }`}
-                >
-                  <div className="overflow-hidden">
+                
+                <div className="overflow-hidden mt-2">
+                   <h2 className="text-sm font-bold mb-2 text-[#3C53E7]">View Key Skills</h2>
                     <ul className="space-y-1.5 text-sm text-gray-700">
                       {project.skills.map((skill, i) => (
                         <li key={i} className="flex items-start gap-2">
@@ -130,7 +107,8 @@ export default function ProjectsSection() {
                       ))}
                     </ul>
                   </div>
-                </div>
+
+               
 
                 {/* Outcome */}
                 <div

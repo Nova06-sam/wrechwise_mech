@@ -4,13 +4,15 @@ import {
   Laptop,
   Clock,
   Users,
+  Star,
 } from "lucide-react";
 
 const cards = [
   {
     icon: CalendarDays,
     title: "Date",
-    value: "Month 3 (Weeks 11-12)",
+    value: `jan (30,31/2026) , 
+    feb (1/2026)`,
   },
   {
     icon: Laptop,
@@ -25,7 +27,7 @@ const cards = [
   {
     icon: Users,
     title: "Seats",
-    value: "Limited to 20",
+    value: "20 Limited",
   },
 ];
 
@@ -68,9 +70,14 @@ export default function MechCard() {
               </p>
 
               {/* Value */}
-              <p className="mt-1 text-base sm:text-lg font-semibold text-gray-900 leading-snug">
-                {card.value}
-              </p>
+              <div className="mt-1 flex items-center gap-1">
+                <p className="text-base sm:text-lg font-semibold text-gray-900 leading-snug">
+                  {card.value}
+                </p>
+                {card.value === "20 Limited" && (
+                  <Star size={10} style={{marginTop:'-10px'}} className="text-yellow-500 fill-yellow-500" />
+                )}
+              </div>
 
               {/* Accent Line */}
               <div className="mt-4 sm:mt-5 h-[2px] w-8 sm:w-10 rounded-full bg-[#3C53E7]" />

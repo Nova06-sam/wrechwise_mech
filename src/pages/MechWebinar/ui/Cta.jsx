@@ -1,56 +1,3 @@
-// import React from "react";
-
-// export default function CTASection() {
-//   return (
-//     <section className="relative w-full overflow-hidden">
-//       {/* Gradient Background */}
-//       <div className="bg-gradient-to-r from-[#2F5AE8] via-[#4A5FEA] to-[#8A3CF0]">
-//         <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10 sm:py-12 md:py-14">
-//           {/* Content */}
-//           <div className="text-center">
-//             {/* Heading */}
-//             <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold tracking-tight text-white">
-//               Ready to Master OpenFOAM?
-//             </h2>
-
-//             {/* Subheading */}
-//             <p className="mt-3 mx-auto max-w-xl sm:max-w-2xl text-sm sm:text-base md:text-lg leading-relaxed text-white/85">
-//               Join the 3-day intensive bootcamp and move from beginner to
-//               confident CFD engineer with portfolio-ready projects.
-//             </p>
-
-//             {/* CTA Button */}
-//             <div className="mt-5 sm:mt-6 flex justify-center">
-//               <button
-//                 className="
-//                   group relative inline-flex items-center justify-center
-//                   rounded-full bg-white
-//                   px-7 py-2.5 sm:px-8 sm:py-3
-//                   text-sm sm:text-base font-extrabold text-[#4051E8]
-//                   shadow-md transition-all duration-300
-//                   hover:-translate-y-0.5 hover:shadow-lg hover:shadow-white/30
-//                   focus:outline-none
-//                 "
-//               >
-//                 Enroll Now
-
-//                 {/* Subtle Ring */}
-//                 <span
-//                   className="
-//                     pointer-events-none absolute inset-0 rounded-full
-//                     ring-1 ring-white/30
-//                     group-hover:ring-white/50
-//                     transition-all duration-300
-//                   "
-//                 />
-//               </button>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 
 import React, { useState } from "react";
@@ -251,7 +198,7 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
                   <div className="space-y-3">
                     <div>
                       <span className="text-sm text-gray-600">Dates:</span>
-                      <p className="font-medium">Dec 21-27, 2024</p>
+                      <p className="font-medium">jan 30-31/2026 , feb(1/2026)</p>
                     </div>
                     <div>
                       <span className="text-sm text-gray-600">Duration:</span>
@@ -263,11 +210,8 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
                 <div className="rounded-xl border border-gray-200 p-6">
                   <div className="mb-4">
                     <span className="text-lg font-bold text-gray-900">Total:</span>
-                    <p className="text-sm text-gray-600">No hidden fees</p>
+                    <p className=" font-bold text-4xl text-[#4051E8] ">₹2,999</p>
                   </div>
-                  <p className="text-sm text-gray-600">
-                    <span className="font-semibold">Refund Policy:</span> 7-day full refund if unsatisfied
-                  </p>
                 </div>
 
                 <div className="rounded-xl border border-gray-200 p-6">
@@ -355,7 +299,7 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
 
                 <div className="rounded-xl bg-gray-50 p-6">
                   <h3 className="font-semibold text-gray-700 mb-2">Total Amount:</h3>
-                  <p className="text-3xl font-bold text-gray-900">$2,999</p>
+                  <p className="text-3xl font-bold text-[#4051E8] ">₹2,999</p>
                 </div>
               </div>
 

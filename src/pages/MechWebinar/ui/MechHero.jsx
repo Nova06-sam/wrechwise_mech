@@ -279,7 +279,7 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
                   <div className="space-y-3">
                     <div>
                       <span className="text-sm text-gray-600">Dates:</span>
-                      <p className="font-medium">Dec 21-27, 2024</p>
+                      <p className="font-medium">jan (30-31/2026) , feb(1/2026)</p>
                     </div>
                     <div>
                       <span className="text-sm text-gray-600">Duration:</span>
@@ -291,11 +291,9 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
                 <div className="rounded-xl border border-gray-200 p-6">
                   <div className="mb-4">
                     <span className="text-lg font-bold text-gray-900">Total:</span>
-                    <p className="text-sm text-gray-600">No hidden fees</p>
+                     <p className=" font-bold text-4xl text-[#4051E8] ">₹2,999</p>
                   </div>
-                  <p className="text-sm text-gray-600">
-                    <span className="font-semibold">Refund Policy:</span> 7-day full refund if unsatisfied
-                  </p>
+                  
                 </div>
 
                 <div className="rounded-xl border border-gray-200 p-6">
@@ -383,7 +381,7 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
 
                 <div className="rounded-xl bg-gray-50 p-6">
                   <h3 className="font-semibold text-gray-700 mb-2">Total Amount:</h3>
-                  <p className="text-3xl font-bold text-gray-900">$2,999</p>
+                  <p className="text-3xl font-bold text-[#4051E8] ">₹2,999</p>
                 </div>
               </div>
 

@@ -2,10 +2,10 @@ import React from "react";
 
 export default function MentorSection() {
   return (
-    <section className="bg-[#5161F5] py-12 sm:py-16 lg:py-20">
+    <section className="bg-[#5161F5] py-12 sm:py-16 lg:py-14 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         {/* Heading */}
-        <div className="mb-10 sm:mb-14 text-center">
+        <div className="mb-8 sm:mb-14 text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white">
             Your Mentor
           </h2>
