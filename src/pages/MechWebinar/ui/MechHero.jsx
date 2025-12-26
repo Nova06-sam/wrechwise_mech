@@ -279,7 +279,7 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
                   <div className="space-y-3">
                     <div>
                       <span className="text-sm text-gray-600">Dates:</span>
-                      <p className="font-medium">jan 30-31/2026 , feb 1/2026</p>
+                      <p className="font-medium">jan 30-31 2026 , feb 1 2026</p>
                     </div>
                     <div>
                       <span className="text-sm text-gray-600">Duration:</span>
