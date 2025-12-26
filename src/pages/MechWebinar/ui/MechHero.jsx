@@ -1,86 +1,3 @@
-// import React from "react";
-
-// export default function MechHero() {
-//   return (
-//     <section className="relative overflow-hidden bg-[#4051E8] text-white pt-10 pb-16 sm:pt-14 sm:pb-20 lg:pt-20 lg:pb-28">
-//       {/* glow effects */}
-//       <div className="pointer-events-none absolute -top-32 -left-32 h-60 w-60 sm:h-72 sm:w-72 rounded-full bg-indigo-300/30 blur-3xl" />
-//       <div className="pointer-events-none absolute -bottom-32 right-6 h-60 w-60 sm:h-72 sm:w-72 rounded-full bg-purple-300/30 blur-3xl" />
-
-//       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
-//         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
-//           {/* LEFT CONTENT */}
-//           <div className="max-w-2xl">
-//             {/* badge */}
-//             <p className="mb-5 inline-flex items-center rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.25em]">
-//               3-Day Intensive Bootcamp
-//             </p>
-
-//             {/* heading */}
-//             <h1 className="text-2xl sm:text-3xl lg:text-[44px] font-extrabold leading-snug tracking-tight">
-//               Master OpenFOAM:
-//               <br className="hidden sm:block" />
-//               <span className="block sm:inline">
-//                 {" "}From Zero to Battery Cooling Simulation
-//               </span>
-//             </h1>
-
-//             {/* description */}
-//             <p className="mt-4 sm:mt-5 max-w-xl text-sm sm:text-base leading-relaxed text-white/90">
-//               OpenFOAM is the industry standard for free, open-source CFD—but the
-//               learning curve is steep. Most students quit due to Linux complexity
-//               and confusing file structures.
-//             </p>
-
-//             {/* CTA */}
-//             <div className="mt-8 sm:mt-10">
-//               <button className="rounded-full bg-white px-7 py-2.5 sm:px-8 sm:py-3 text-sm font-semibold text-[#4051E8] shadow-lg transition hover:bg-gray-100">
-//                 Enroll now
-//               </button>
-//             </div>
-//           </div>
-
-//           {/* RIGHT CARD */}
-//           <div className="flex justify-center lg:justify-end">
-//             <div className="w-full max-w-sm sm:max-w-md rounded-[28px] bg-white p-6 sm:p-8 text-gray-900 shadow-[0_20px_60px_-15px_rgba(64,81,232,0.45)]">
-//               {/* header */}
-//               <div className="mb-3 sm:mb-4 flex items-center justify-between">
-//                 <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.3em] text-[#4051E8]">
-//                   Bootcamp
-//                 </p>
-//                 <span className="rounded-full bg-green-50 px-3 py-1 text-xs font-semibold text-green-500">
-//                   Limited Seats
-//                 </span>
-//               </div>
-
-//               <p className="text-sm sm:text-base font-semibold leading-snug">
-//                 A 3-Day Intensive Bootcamp for Engineering Students &
-//                 Professionals
-//               </p>
-
-//               {/* price */}
-//               <div className="my-5 sm:my-6 rounded-2xl bg-gradient-to-r from-[#4051E8] to-[#5f6dff] px-5 py-4 sm:px-6 sm:py-5 text-white">
-//                 <p className="text-xs uppercase tracking-wider text-white/80">
-//                   Bootcamp Fee
-//                 </p>
-//                 <p className="mt-1 text-2xl sm:text-3xl font-extrabold">
-//                   ₹2,999
-//                 </p>
-//               </div>
-
-//               <p className="text-sm text-gray-600">
-//                 Limited seats available.{" "}
-//                 <span className="font-semibold text-[#4051E8]">
-//                   Secure your spot today!
-//                 </span>
-//               </p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 import React, { useState } from "react";
 
 // Enrollment Form Component
@@ -279,7 +196,7 @@ const EnrollmentForm = ({ isOpen, onClose }) => {
                   <div className="space-y-3">
                     <div>
                       <span className="text-sm text-gray-600">Dates:</span>
-                      <p className="font-medium">jan 30-31 2026 , feb 1 2026</p>
+                      <p className="font-medium">Jan 30-31 2026 , Feb 1 2026</p>
                     </div>
                     <div>
                       <span className="text-sm text-gray-600">Duration:</span>

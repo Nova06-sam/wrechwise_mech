@@ -36,7 +36,7 @@ const reasons = [
         <span className="font-semibold text-gray-900">
           Electric Vehicle thermal management
         </span>
-        —a high-demand, industry-relevant skill.
+        -a high-demand, industry-relevant skill.
       </>
     ),
   },

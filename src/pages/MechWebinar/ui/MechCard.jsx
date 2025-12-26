@@ -11,8 +11,8 @@ const cards = [
   {
     icon: CalendarDays,
     title: "Date",
-    value: `jan 30,31 2026 , 
-    feb 1 2026`,
+    value: `Jan 30,31 2026 , 
+    Feb 1 2026`,
   },
   {
     icon: Laptop,
