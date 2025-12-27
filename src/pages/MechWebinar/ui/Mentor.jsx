@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from '../../../assets/Siddharthabg.png'
 export default function MentorSection() {
   return (
     <section className="bg-[#5161F5] py-12 sm:py-16 lg:py-14 ">
@@ -34,9 +34,9 @@ export default function MentorSection() {
                        text-4xl sm:text-5xl font-extrabold text-white
                        shadow-lg
                        transition-transform duration-500
-                       group-hover:scale-105"
+                       group-hover:scale-105 overflow-hidden"
           >
-            S
+            <img style={{objectFit:'cover',width:'100%'}} src={Logo} alt="Siddhartha" />
           </div>
 
           {/* Content */}
